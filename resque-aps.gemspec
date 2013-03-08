@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'resque-aps/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "resque-aps"
+  gem.name          = "resque-aps-new"
   gem.version       = Resque::Aps::VERSION
   gem.authors       = ["j-mcnally"]
   gem.email         = ["justin@kohactive.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = "Fixes issues with old resque-aps"
+  gem.summary       = "Resque-aps" 
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
